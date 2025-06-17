@@ -71,7 +71,7 @@ const Register = () => {
         {/* footer */}
         <View style={styles.footer}>
             <Typo size={15}>Already have an Account?</Typo>
-            <Pressable onPress={()=> router.push('/(auth)/Login')}>
+            <Pressable onPress={()=> router.replace('/(auth)/Login')}>
                 <Typo size={15} color={colors.primary}>Login</Typo>
             </Pressable>
         </View>

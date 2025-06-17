@@ -58,7 +58,7 @@ const Login = () => {
         {/* footer */}
         <View style={styles.footer}>
             <Typo size={15}>Don't have an Account?</Typo>
-            <Pressable onPress={()=> router.push('/(auth)/Register')}>
+            <Pressable onPress={()=> router.replace('/(auth)/Register')}>
                 <Typo size={15} color={colors.primary}>Sign Up</Typo>
             </Pressable>
         </View>
