@@ -5,8 +5,7 @@ import { StyleSheet } from 'react-native'
 const _layout = () => {
   return (
     <Stack screenOptions={{
-      headerShown: false,}}>
-        
+      headerShown: false,}}>   
     </Stack>
   )
 }
