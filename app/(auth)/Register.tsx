@@ -32,7 +32,7 @@ const Register = () => {
   );
     console.log("Register Results :",res)
      setIsLoading(false);
-    if(res.success){
+    if(!res.success){
       Alert.alert("Sign up",res.msg)
     }
     
